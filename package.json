@@ -1,0 +1,22 @@
+{
+  "name": "agent-grep",
+  "version": "0.1.0",
+  "description": "Search everything you ever asked your AI agents: every Claude Code and Codex session on your machine, newest first.",
+  "type": "module",
+  "bin": {
+    "agent-grep": "agent-grep.mjs"
+  },
+  "files": ["agent-grep.mjs", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["ai-agents", "claude-code", "codex", "grep", "search", "session-logs"],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tick-ai/agent-grep.git"
+  }
+}
